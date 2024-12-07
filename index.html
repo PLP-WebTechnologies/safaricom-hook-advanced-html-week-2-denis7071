@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <h3>Audio element</h3>
+    <hr>
+    <!-- Embedding audio -->
+     <figure>
+        <figcaption>Listen to Roadmap to Full stack developer</figcaption>
+        <br>
+        <audio src="assests/fullstackdev.mp3" controls controlslist="nodownload noplaybackrate" muted loop>fullstackdev</audio>
+     </figure>
+     <br>
+     <hr>
+     <h3>Video element</h3>
+     <figure>
+        <figcaption>Watch Roadmap to fullstack developer lyrics</figcaption>
+        <br>
+        <video src="assests/Full-Stack Developer Song.mp4" width="250" controls controlslist="nodownload noremoteplayback" poster="assests/poster.jpg"></video>
+     </figure>
+     <!-- form details -->
+      <form action="submit">
+        <label for="fname">Full Name:</label>
+        <input type="text" placeholder="Full Name" required >
+        <br><br>
+        <label for="email">Email Adress:</label>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="min 8 characters" minlength="8" maxlength="20" required>
+        <br><br>
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" min="18" placeholder="Your Age" required>
+        <br><br>
+        Gender <br>
+        <input type="radio" name="gender" id="gender" value="Male" required>
+        <label for="gender">Male</label>
+        <br>
+        <input type="radio" name="gender" id="gender" required>
+        <label for="gender">Female</label>
+        <br>
+        <input type="radio" name="gender" id="gender" required>
+        <label for="gender">Others</label>
+        <br> <br>
+        <input type="checkbox" name="trems" id="terms" required> Accept Our Terms and Conditions
+        <br><br>
+        <button type="submit">Register</button>
+      </form>
+</body>
+</html>
